@@ -1,0 +1,32 @@
+# FastAPI e dependências principais
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+python-multipart==0.0.6
+
+# Banco de dados
+sqlalchemy==2.0.23
+psycopg2-binary==2.9.9
+alembic==1.12.1
+
+# Autenticação e segurança
+python-jose[cryptography]==3.3.0
+passlib[bcrypt]==1.7.4
+python-multipart==0.0.6
+
+# Validação de dados
+pydantic[email]==2.5.0
+email-validator==2.1.0
+
+# Serviços de e-mail
+smtplib2==0.2.1
+
+# Utilitários
+python-dotenv==1.0.0
+
+# Desenvolvimento e testes
+pytest==7.4.3
+pytest-asyncio==0.21.1
+httpx==0.25.2
+
+# Documentação automática
+fastapi[all]==0.104.1
